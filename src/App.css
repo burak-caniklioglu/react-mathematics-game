@@ -29,8 +29,8 @@ html{
 
 
 .first-container{
-  width: 50em;
-  padding-top: 9em;
+  width: 42%;
+  padding-top: 7%;
   margin: 0 auto;
 }
 .wrapper{
@@ -51,7 +51,7 @@ html{
 
 
 .first-parag{
-  margin: 0.75em;
+  margin: 3%;
   font-size: 4rem;
 }
 
@@ -76,7 +76,7 @@ html{
 
 .game-container{
   display: flex;
-  padding-top: 4em;
+  padding-top: 2%;
 }
 
 .left-game{
@@ -87,8 +87,8 @@ html{
 
 .conc {
   position: absolute;
-  top: 321px;
-  left: 279px;
+  top: 29%;
+  left: 13%;
   font-size: 8em;
 }
 .score-container{
@@ -170,12 +170,12 @@ html{
   
   }
   .circle-1{
-    top: 352px;
+    top: 252px;
     left:850px;
   
   }
   .circle-2{
-    top: 500px;
+    top: 400px;
     left:725px;
   }
 
@@ -240,7 +240,7 @@ html{
 @media screen and (min-width: 1281px) and (max-width: 1400px) {
 
   html{
-    font-size: 14px;
+    font-size: 13px;
   }
   .left-game{
     margin-left: 10em;
