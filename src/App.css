@@ -158,3 +158,29 @@
   }
 }
 
+
+
+
+
+
+
+
+
+
+.result-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem  0 ;
+  text-align: center;
+}
+
+.symbol{
+  
+  padding-left: 3rem;
+}
+.question span{
+  font-size: 3.5rem;
+  padding-right: 0.5rem;
+} 
+
