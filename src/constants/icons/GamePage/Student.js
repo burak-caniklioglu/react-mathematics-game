@@ -4,8 +4,8 @@ function Student() {
   return (
     <div className="Student">
       <svg
-        
-        height="48em"
+        width="40vw"
+        height="90vh"
         viewBox="0 0 948 944"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

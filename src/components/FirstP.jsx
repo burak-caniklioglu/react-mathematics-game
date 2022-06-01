@@ -12,7 +12,7 @@ function FirstP() {
       // gecmis soruları çağırıyoruz
       const getAllQuestions = JSON.parse(localStorage.getItem('allQuestions')) ? JSON.parse(localStorage.getItem('allQuestions')).length : 0;
   return (
-    <div>
+    <>
         <p className="header">Mathematics Game</p>
           <FirstUndeline   className='underline'/>
           <p className='first-parag'>Total Point : <span>{localStorage.getItem('score')|| 0}</span></p>
@@ -24,7 +24,7 @@ function FirstP() {
               <Start  /> <p className='start'>Start</p>
             </Link>
           </div>
-    </div>
+    </>
   )
 }
 
