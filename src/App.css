@@ -75,6 +75,8 @@
 .game-container{
   display: flex;
   padding-top: 2%;
+  
+  overflow-x: hidden;
 }
 
 .left-game{
@@ -176,11 +178,14 @@
 }
 
 .symbol{
-  
   padding-left: 3rem;
 }
+.symbol svg{
+  width: 3vw;
+}
 .question span{
-  font-size: 3.5rem;
+  
+  font-size: 3vw;
   padding-right: 0.5rem;
 } 
 
